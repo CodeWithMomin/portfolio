@@ -312,3 +312,10 @@ display: block;
 
 
  }
+ @media all and (max-width:390px)
+ {
+  .logo{
+    width: 42%;
+    font-size: 16px;
+  }
+ }

@@ -15,16 +15,16 @@ const Homepage = () => {
     </div>
     <div className='two'>
       <div> 
-      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-        <i className="fa fa-facebook"></i> 
+      <a href="https://github.com/CodeWithMomin" target="_blank" rel="noopener noreferrer">
+        <i className="fa fa-github"></i> 
       </a>
-      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://x.com/_mominzahoor?s=21" target="_blank" rel="noopener noreferrer">
         <i className="fa fa-twitter"></i> 
       </a>
-      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://instagram.com/_mominzahoor_" target="_blank" rel="noopener noreferrer">
         <i className="fa fa-instagram"></i> 
       </a>
-      <a href="#" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/momin-zahoor-502b97222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">
         <i className="fa fa-linkedin"></i> 
       </a>
     </div>
