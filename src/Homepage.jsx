@@ -46,7 +46,7 @@ const Homepage = () => {
       </div>
       <div>
         <div className="imgdiv">
-          <img src="./src/icons/css-3.png" className="htmlimg" alt="" width="100%" height="100%" />
+          <img src="/icons/css-3.png" className="htmlimg" alt="" width="100%" height="100%" />
           <span>CSS</span>
         </div>
       </div>
