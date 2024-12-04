@@ -40,7 +40,7 @@ const Homepage = () => {
     <div className="layer1">
       <div>
         <div className="imgdiv">
-          <img src="./src/icons/html-5.png" className="htmlimg" alt="" width="100%" height="100%" />
+          <img src="/icons/html-5.png" className="htmlimg" alt="" width="100%" height="100%" />
           <span>HTML</span>
         </div>
       </div>
@@ -52,13 +52,13 @@ const Homepage = () => {
       </div>
       <div>
         <div className="imgdiv">
-          <img src="./src/icons/java-script.png" className="htmlimg" alt="" width="100%" height="100%" />
+          <img src="/icons/java-script.png" className="htmlimg" alt="" width="100%" height="100%" />
           <span>JavaScript</span>
         </div>
       </div>
       <div>
         <div className="imgdiv">
-          <img src="./src/icons/atom.png" className="htmlimg" alt="" width="100%" height="100%" />
+          <img src="/icons/atom.png" className="htmlimg" alt="" width="100%" height="100%" />
           <span>React</span>
         </div>
       </div>
@@ -66,25 +66,25 @@ const Homepage = () => {
     <div className="layer1">
       <div>
         <div className="imgdiv">
-          <img src="src/icons/icons8-tailwind-css-48.png" className="htmlimg" alt="" width="100%" height="100%" />
+          <img src="/icons/icons8-tailwind-css-48.png" className="htmlimg" alt="" width="100%" height="100%" />
           <span>Tailwind</span>
         </div>
       </div>
       <div>
         <div className="imgdiv">
-          <img src="src/icons/node-js.png" className="htmlimg" alt="" width="100%" height="100%" />
+          <img src="/icons/node-js.png" className="htmlimg" alt="" width="100%" height="100%" />
           <span>Node</span>
         </div>
       </div>
       <div>
         <div className="imgdiv">
-          <img src="src/icons/Express.png" className="htmlimg" alt="" width="100%" height="100%" />
+          <img src="/icons/Express.png" className="htmlimg" alt="" width="100%" height="100%" />
           <span>Express</span>
         </div>
       </div>
       <div>
         <div className="imgdiv">
-          <img src="src/icons/social.png" className="htmlimg" alt="" width="100%" height="100%" />
+          <img src="/icons/social.png" className="htmlimg" alt="" width="100%" height="100%" />
           <span>Git</span>
         </div>
       </div>
@@ -92,13 +92,13 @@ const Homepage = () => {
     <div className="layer1">
       <div>
         <div className="imgdiv">
-          <img src="src/icons/icons8-mongo-db-48.png" className="htmlimg" alt="" width="100%" height="100%" />
+          <img src="/icons/icons8-mongo-db-48.png" className="htmlimg" alt="" width="100%" height="100%" />
           <span>Mongo DB</span>
         </div>
       </div>
       <div>
         <div className="imgdiv">
-          <img src="src/icons/Postman.png" className="htmlimg" alt="" width="100%" height="100%" />
+          <img src="/icons/Postman.png" className="htmlimg" alt="" width="100%" height="100%" />
           <span>Postman</span>
         </div>
       </div>
@@ -118,13 +118,13 @@ const Homepage = () => {
         </div>
         <div className="projectdiv">
         <div className="imgdiv">
-          <img src="src/icons/note-sticky-solid (1) (2).svg" className="htmlimg" alt="" width="100%" height="100%" />
+          <img src="/icons/note-sticky-solid (1) (2).svg" className="htmlimg" alt="" width="100%" height="100%" />
           <a href="#">Educational WebSIte</a>
         </div>
         </div>
         <div className="projectdiv">
           <div className="imgdiv">
-          <img src="src/icons/newspaper-solid.svg" className="htmlimg" alt="" width="100%" height="100%" />
+          <img src="/icons/newspaper-solid.svg" className="htmlimg" alt="" width="100%" height="100%" />
           <a href="https://github.com/CodeWithMomin/QuickRead">News WebApp</a>
           </div>
         </div>
@@ -132,7 +132,7 @@ const Homepage = () => {
       <div className="player1">
         <div className="projectdiv">
         <div className="imgdiv">
-          <img src="src/icons/cloud-solid.svg" className="htmlimg" alt="" width="100%" height="100%" />
+          <img src="/icons/cloud-solid.svg" className="htmlimg" alt="" width="100%" height="100%" />
          <a href="https://github.com/CodeWithMomin/WeatherApp">Weather App</a>
         </div>
         </div>
