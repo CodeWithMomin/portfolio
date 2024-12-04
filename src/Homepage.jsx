@@ -30,7 +30,7 @@ const Homepage = () => {
     </div>
     </div>
     </div>
-      <div className="aboutcontainer">
+      <div className="aboutcontainer" id='abt'>
         <p className='heading'>About</p>
         <p>I am a passionate MERN stack developer with expertise in building full-stack web applications. With proficiency in MongoDB, Express.js, React.js, and Node.js, I specialize in creating <span>efficient, scalable, and user-centric</span> solutions. I thrive on solving complex problems, integrating front-end and back-end seamlessly, and delivering high-quality applications tailored to user needs. With a strong foundation in responsive design, API development, and secure authentication, I aim to create robust and intuitive platforms that enhance user experience. Constantly driven by a desire to innovate, I stay updated with the latest trends and technologies in web development to ensure my work remains cutting-edge. Let's connect and bring innovative ideas to life!</p>
       </div>
@@ -132,7 +132,7 @@ const Homepage = () => {
       <div className="player1">
         <div className="projectdiv">
         <div className="imgdiv">
-          <img src="https://cdn-icons-png.flaticon.com/128/18477/18477249.png" className="htmlimg" alt="" width="100%" height="100%" />
+          <img src="src/icons/cloud-solid.svg" className="htmlimg" alt="" width="100%" height="100%" />
          <a href="https://github.com/CodeWithMomin/WeatherApp">Weather App</a>
         </div>
         </div>
