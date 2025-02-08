@@ -8,9 +8,9 @@ const Homepage = () => {
     <div className='one'>
       <p>I'M <strong> MOMIN ZAHOOR</strong></p>
       
-      <p>MERN STACK Developer</p>
+      <p>MERN STACK Developer & ML Engineer</p>
       <div className="btndiv">
-        <button>Contact Me</button>
+      <a href="#contact">  <button>Contact Me</button></a>
       </div>
     </div>
     <div className='two'>
@@ -32,7 +32,7 @@ const Homepage = () => {
     </div>
       <div className="aboutcontainer" id='abt'>
         <p className='heading'>About</p>
-        <p>I am a passionate MERN stack developer with expertise in building full-stack web applications. With proficiency in MongoDB, Express.js, React.js, and Node.js, I specialize in creating <span>efficient, scalable, and user-centric</span> solutions. I thrive on solving complex problems, integrating front-end and back-end seamlessly, and delivering high-quality applications tailored to user needs. With a strong foundation in responsive design, API development, and secure authentication, I aim to create robust and intuitive platforms that enhance user experience. Constantly driven by a desire to innovate, I stay updated with the latest trends and technologies in web development to ensure my work remains cutting-edge. Let's connect and bring innovative ideas to life!</p>
+        <p>I am a Machine Learning Engineer and MERN Stack Developer with expertise in building intelligent, scalable, and user-centric web applications. Proficient in MongoDB, Express.js, React.js, Node.js, and machine learning, I seamlessly integrate AI-powered features into web solutions. Passionate about problem-solving, performance optimization, and secure authentication, I develop robust, intuitive, and future-ready applications while staying updated with the latest trends in AI and web development to drive innovation. </p>
       </div>
 <div className="skillscontainer">
   <h3>My Skills</h3>
@@ -102,7 +102,34 @@ const Homepage = () => {
           <span>Postman</span>
         </div>
       </div>
+      <div>
+        <div className="imgdiv">
+          <img src="https://pandas.pydata.org/static/img/pandas_white.svg" className="htmlimg" alt="" width="100%" height="100%" />
+          <span>Pandas</span>
+        </div>
+      </div>
+      <div>
+        <div className="imgdiv">
+          <img src="https://matplotlib.org/stable/_static/logo_dark.svg" className="htmlimg" alt="" width="100%" height="100%" />
+          <span>Matplotlib</span>
+        </div>
+      </div>
+      
     </div>
+
+    <div className="layer1">
+    <div>
+        <div className="imgdiv">
+          <img src="https://numpy.org/doc/_static/numpylogo.svg" className="htmlimg" alt="" width="100%" height="100%" />
+          <span>NumPY</span>
+        </div>
+      </div>
+      
+    </div>
+      
+
+
+
   </div>
  
  </div>
@@ -140,6 +167,15 @@ const Homepage = () => {
       </div>
     </div>
   </div>
+
+  <div style={{ borderTop: "3px solid rgb(255, 196, 0)", margin: "20px 0" }}></div>
+ <div className="letsconnect" id='contact'>
+  <span>"Thanks for Scrolling"</span>
+ </div>
+
+
+
+
 </div>
   )
 }

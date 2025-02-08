@@ -10,8 +10,8 @@ const Header = () => {
             Code With Momin
         </div>
         <div className='links'>
-            <Link to="about">About</Link>
-            <Link to="contact">Contact</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
         </div>
             
        
