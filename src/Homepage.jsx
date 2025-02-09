@@ -1,7 +1,13 @@
 import React from 'react'
 import Header from './Header'
-
+import { useNavigate } from 'react-router-dom'
 const Homepage = () => {
+  const navigate=useNavigate()
+  const contactbtnclk=()=>{
+    console.log("testing");
+    
+    navigate('/contact')
+  }
   return (
     <div><Header/>
     <div className="infoContainer">
@@ -10,7 +16,7 @@ const Homepage = () => {
       
       <p>MERN STACK Developer & ML Engineer</p>
       <div className="btndiv">
-      <a href="#contact">  <button>Contact Me</button></a>
+       <button onClick={contactbtnclk}>Contact Me</button>
       </div>
     </div>
     <div className='two'>
