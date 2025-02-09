@@ -7,16 +7,16 @@ const Footer = () => {
       <div className="footer-container">
         {/* Social Media Links */}
         <div className="social-icons">
-          <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/CodeWithMomin" target="_blank" rel="noopener noreferrer">
             <FaGithub />
           </a>
-          <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/momin-zahoor-502b97222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
           </a>
-          <a href="https://twitter.com/yourtwitter" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/_mominzahoor?s=21" target="_blank" rel="noopener noreferrer">
             <FaTwitter />
           </a>
-          <a href="https://instagram.com/yourinstagram" target="_blank" rel="noopener noreferrer">
+          <a href="https://instagram.com/_mominzahoor_" target="_blank" rel="noopener noreferrer">
             <FaInstagram />
           </a>
         </div>
