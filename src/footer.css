@@ -1,0 +1,37 @@
+/* Apply dark background to the entire page */
+body {
+    background-color: #181c14;  /* Dark background for the body */
+    color: white;  /* Light text color for contrast */
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background: #181c14;  /* Keep footer background dark */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    font-size: 40px;
+    color: white;
+  }
+  
+  .social-icons a:hover {
+    color: rgb(255, 196, 0);  /* Hover color effect */
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #333;
+  }
+  

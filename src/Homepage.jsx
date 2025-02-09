@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import { useNavigate } from 'react-router-dom'
+import Footer from './Footer'
 const Homepage = () => {
   const navigate=useNavigate()
   const contactbtnclk=()=>{
@@ -175,9 +176,7 @@ const Homepage = () => {
   </div>
 
   <div style={{ borderTop: "3px solid rgb(255, 196, 0)", margin: "20px 0" }}></div>
- <div className="letsconnect" id='contact'>
-  <span>"Thanks for Scrolling"</span>
- </div>
+ <Footer/>
 
 
 
