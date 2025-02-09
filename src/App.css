@@ -349,6 +349,16 @@ textarea::placeholder {
   cursor: pointer;
   margin-top: 10px;
 }
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px; /* Adjust to fit inside the button */
+  width: 100%; /* Ensure it takes the full width */
+  background: none;
+}
+
+
 
 .contact-button:hover {
   font-weight:bold ;
