@@ -21,7 +21,7 @@ const Contact = () => {
     setLoading(true); // ✅ Show spinner while sending request
 
     try {
-      const response = await axios.post("http://localhost:5000/", {
+      const response = await axios.post("https://codewithmomin.tech/api/", {
         email,
         subject,
         message,
